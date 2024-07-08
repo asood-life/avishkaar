@@ -1,0 +1,8 @@
+# python bytecode cache
+__pycache__
+
+# Visual Studio Code config folder
+.vscode
+
+# virtual environment folder
+avishkaar-env
