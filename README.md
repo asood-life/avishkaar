@@ -5,7 +5,6 @@
     <li><a href="#installation-and-setup">Installation and Setup</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#future-work">Future Work</a></li>
-    <li><a href="#team">Team</a></li>
 </ul>
 
 <h3 id="introduction">Introduction</h3>
@@ -16,7 +15,7 @@
 <h3 id="overview">Overview</h3>
 <div>
    Avishkaar serves as a Student Data Management Portal, featuring a Tkinter-based Frontend integrated with MySQL as its Backend Database. The seamless connection and interaction with the database is facilitated by the <code>mysql-connector-python</code> package, empowering the Frontend to access and manipulate data stored in database. 
-   <br>
+   <br><br>
    However Avishkaar is more than just a archive for student data. It embodies an ambitious vision for elevating data management and manipulation to new heights. At its current stage, the application caters to the administrative domain by providing essential functionalities for administering student data in a methodical manner.<br><br>
 </div>
 
@@ -61,23 +60,6 @@
    <li>Install the required packages using <code>pip install -r requirements.txt</code></li>
    <li>Create a MySQL database following the schema described above. Ensure to specify the database name and required access password in the <code>credentials.json</code> file.</li>
 </ul>
-
-<div>
-The file <code>credentials.json</code> stores credentials required to run the application. It contains the following:
-<ul>
-   <li><code>log_pass</code> : current login password</li>
-   <li><code>passwd</code> : access password to the database</li>
-   <li><code>dbname</code> : database name</li>
-</ul>
-</div>
-
-```json
-{
-   "log_pass": "admin",
-   "passwd": "DATABAE_PASSWORD",
-   "dbname": "DATABASE_NAME"
-}
-```
 
 <h3 id="usage">Usage</h3>
 <div>
@@ -129,7 +111,7 @@ Leverage the search feature and get the results displayed in the table positione
 <b>DELETE STUDENTS</b>:  If one of your students has recently left or transferred to another institution, it is crucial to promptly remove their relevant records from the database to prevent any confusion. The Search functionality mentioned above is also available for this purpose. Simply search for the concerned student, click on their entry in the table where the results are displayed, and then use the <code>Delete</code> button to remove them from the database.<br><br>
 <img src="screenshots/delete-students.png"><br><br>
 
-<b>CHANGE PASSWORD</b>:  If you have accidentally revealed your password to someone (well I have done at start :D), don't panic. You can change your password anytime you desire. However, before making the change, user must confirm their old password to ensure authentic access.<br><br>
+<b>CHANGE PASSWORD</b>:  If you have accidentally revealed your password to someone (well I have done at start :D) don't panic. You can change your password anytime you desire. However, before making the change, user must confirm their old password to ensure authentic access.<br><br>
 The login password is retrieved from the <code>credentials.json</code> file. If the validation is successful during the password change process, the new password is written to the JSON, overwriting the previous value.
 <br><br>
 <img src="screenshots/change-password.png"><br><br>
@@ -139,24 +121,13 @@ The login password is retrieved from the <code>credentials.json</code> file. If 
 
 <h3 id="future-work">Future Work</h3>
 <ul>
-   <li><b>Enhancing Responsiveness and Modularizing Codebase</b>: Ensure the application adjusts to various screen sizes while modularizing the codebase for better organization and easier maintainence.</li>
+   <li><b>Enhancing Responsiveness and Modularizing Codebase</b>: Ensure the application adjusts to various screen sizes while modularizing the codebase for better organization and easier maintainence in the future.</li>
    <li><b>Announcements</b>: Introduce a feature for publishing announcements in the application.</li>
    <li><b>Personalized Dashboards</b>: Incorporate a personalized dashboard for students, showcasing their attendance and grades, courses taken, and other pertinent personal information already recorded in the database.</li>
    <li><b>Bulk Operations</b>: Allow the use of an excel sheet to add or update student details in the database ensuring minimal manual intervention and streamlining of the overall procedure.</li>
 </ul>
 
-<h3 id="team">Team</h3>
-<div>
-    <table>
-        <tr align="center">
-            <td>
-                <img width="100" src="https://avatars.githubusercontent.com/u/148894491?v=4"><br>
-                <a href="https://github.com/asood-life">Akshat Sood</a>
-            </td>
-        </tr>
-    </table>
-</div>
 <hr>
 <div>
-    Thank you for visiting! If you find value in this project, please consider giving it a ⭐ star. Your support is greatly appreciated and assists others discover the project. If you have any requests for enhancements or find any bugs, please report them under <a href="https://github.com/asood-life/avishkaar/issues">Issues</a>. Your feedback is invaluable in making this project better for everyone.
+    Thank you for taking the time to go through this project! If you find it valuable, please consider giving it a ⭐ star. Your support is appreciated and helps others in discovering the project. Should you have any enhancement requests or encounter a bug, please report it in the <a href="https://github.com/asood-life/avishkaar/issues">Issues</a> section. Your feedback is crucial in improving this project for all.
 </div>
