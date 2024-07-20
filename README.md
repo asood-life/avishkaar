@@ -5,6 +5,7 @@
     <li><a href="#installation-and-setup">Installation and Setup</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#future-work">Future Work</a></li>
+    <li><a href="#team">Team</a></li>
 </ul>
 
 <h3 id="introduction">Introduction</h3>
@@ -126,6 +127,17 @@ The login password is retrieved from the <code>credentials.json</code> file. If 
    <li><b>Personalized Dashboards</b>: Incorporate a personalized dashboard for students, showcasing their attendance and grades, courses taken, and other pertinent personal information already recorded in the database.</li>
    <li><b>Bulk Operations</b>: Allow the use of an excel sheet to add or update student details in the database ensuring minimal manual intervention and streamlining of the overall procedure.</li>
 </ul>
+<h3 id="team">Team</h3>
+<div>
+    <table>
+        <tr align="center">
+            <td>
+                <img width="100" src="https://avatars.githubusercontent.com/u/148894491?v=4"><br>
+                <a href="https://github.com/asood-life">Akshat Sood</a>
+            </td>
+        </tr>
+    </table>
+</div>
 
 <hr>
 <div>
