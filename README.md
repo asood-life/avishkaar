@@ -10,12 +10,12 @@
 
 <h3 id="introduction">Introduction</h3>
 <div>
-   In the bustling corridors of educational institutions, administrators are constantly overwhelmed with the sheer volume of student data they must manage. From enrollment records and attendance logs to academic performance and personal details , the task is monumental. Recognizing this challenge, I set out to create Avishkaar, a Student Data Management Portal that transforms how educational institutions handle student data.
+   In bustling corridors of educational institutions, administrators are constantly overwhelmed with the sheer volume of student data they must manage. From enrollment records and attendance logs to academic performance and personal details , the task is monumental. Recognizing this challenge, I set out to create Avishkaar, a Student Data Management Portal that transforms how educational institutions handle student data.
 </div>
 
 <h3 id="overview">Overview</h3>
 <div>
-   Avishkaar serves as a Student Data Management Portal, featuring a Tkinter-based Frontend integrated with MySQL as its Backend Database. The seamless connection and interaction with the database is facilitated by the <code>mysql-connector-python</code> package, empowering the Frontend to access and manipulate data stored in database. 
+   <b>Avishkaar</b> serves as a <b>Student Data Management Portal</b>, featuring a <b>Tkinter-based Frontend</b> integrated with <b>MySQL</b> as its Backend Database. The seamless connection and interaction with the database is facilitated by the <code>mysql-connector-python</code> package, empowering the Frontend to access and manipulate data stored in database. 
    <br><br>
    However Avishkaar is more than just a archive for student data. It embodies an ambitious vision for elevating data management and manipulation to new heights. At its current stage, the application caters to the administrative domain by providing essential functionalities for administering student data in a methodical manner.<br><br>
 </div>
@@ -43,13 +43,13 @@
 ```
 
 <div>
-   The following diagram depicts the schema of the MySQL database, encompassing crucial student information such as roll number, name, class, section, gender, contact number, email, date of birth, and address. The roll number is designated as PK (Primary Key) and UQ (Unique Index), ensuring each student is allocated a distinct identifier.<br><br>
+   The following diagram depicts the schema of the MySQL database, encompassing crucial student information such as roll number, name, class, section, gender, contact number, email, date of birth, and address. The roll number is marked as PK (Primary Key) and UQ (Unique Index), as each student is allocated a distinct identifier.<br><br>
    <img width="500" src="./screenshots/mysql-db.png"><br>
 </div>
 
 <h3 id="installation-and-setup">Installation and Setup</h3>
 <blockquote>
-   It is recommended to set up a virtual environment to avoid conflicts between package versions installed on your system and keep your workspace organized. To create a virtual environment and activate it, please follow the instructions detailed on <a href="https://docs.python.org/3/library/venv.html">python venv page</a>. The procedure to deactivate the environment is also provided here.
+   It is recommended to set up a virtual environment to avoid conflicts between package versions installed on your system and keep your workspace organized. To create a virtual environment and activate it, please follow the instructions detailed on <a href="https://docs.python.org/3/library/venv.html">python venv page</a>. The procedure to deactivate environment is also given.
    <br>
 </blockquote>
 <br>
@@ -77,7 +77,7 @@
 <br>
 <img src="screenshots/home-page.png"><br><br>
 
-<b>VIEW STUDENTS</b>: Enables user to access and view records of all students stored in the database in a tabular format.
+<b>VIEW STUDENTS</b>: access and view records of all students stored in the database in a tabular format.
 <br><br>
 <img src="screenshots/view-students.png"><br> 
 
@@ -94,7 +94,7 @@
    <li>Email</li>
    <li>Address</li>
 </ul>
-Please note that the Roll Number holds fundamental significance for each student and cannot be shared with others. Hence, the portal strictly prohibits the duplication of roll numbers for multiple students. Furthermore, it is crucial to fill at least the Roll Number and Name of the Student. Other details can be updated later thorugh the Portal.<br><br>
+Please note that the Roll Number holds fundamental significance for each student and cannot be shared with others. Hence, the portal strictly prohibits the duplication of roll numbers for multiple students. Furthermore, it is crucial to fill at least the Roll Number and Name of the Student. Other details can be updated later.<br><br>
 <img src="screenshots/add-students.png"><br><br>
 
 <b>UPDATE STUDENTS</b>:  If you have entered incorrect details or missed some entries, don't fret! The portal allows you to update student records at your convenience. One of its most fascinating features for smooth operation is the Search functionality. User can easily search for a particular student using the following fields:
@@ -141,5 +141,5 @@ The login password is retrieved from the <code>credentials.json</code> file. If 
 
 <hr>
 <div>
-    Thank you for taking the time to go through this project! If you find it valuable, please consider giving it a ⭐ star. Your support is appreciated and helps others in discovering the project. Should you have any enhancement requests or encounter a bug, please report it in the <a href="https://github.com/asood-life/avishkaar/issues">Issues</a> section. Your feedback is crucial in improving this project for all.
+    Thank you for taking the time to go through this project! If you find it valuable, please consider giving it a ⭐ star. Your support is appreciated and helps others in discovering the project. Should you have enhancement requests or encounter a bug, please report it in the <a href="https://github.com/asood-life/avishkaar/issues">Issues</a> section. Your feedback is crucial in improving this project.
 </div>
