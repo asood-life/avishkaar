@@ -15,7 +15,7 @@
 
 <h3 id="overview">Overview</h3>
 <div>
-   <b>Avishkaar</b> serves as a <b>Student Data Management Portal</b>, featuring a <b>Tkinter-based Frontend</b> integrated with <b>MySQL</b> as its Backend Database. The seamless connection and interaction with the database is facilitated by the <code>mysql-connector-python</code> package, empowering the Frontend to access and manipulate data stored in database. 
+   <b>Avishkaar</b> serves as a <b>Student Data Management Portal</b>, featuring a <b>Tkinter-based Frontend</b> integrated with <b>MySQL</b> as its Backend Database. The seamless connection and interaction with the database is facilitated by the <code>mysql-connector-python</code> package, empowering frontend to access and manipulate data stored in database. 
    <br><br>
    However Avishkaar is more than just a archive for student data. It embodies an ambitious vision for elevating data management and manipulation to new heights. At its current stage, the application caters to the administrative domain by providing essential functionalities for administering student data in a methodical manner.<br><br>
 </div>
@@ -113,7 +113,7 @@ Leverage the search feature and get the results displayed in the table positione
 <img src="screenshots/delete-students.png"><br><br>
 
 <b>CHANGE PASSWORD</b>:  If you have accidentally revealed your password to someone (well I have done at start :D) don't panic. You can change your password anytime you desire. However, before making the change, user must confirm their old password to ensure authentic access.<br><br>
-The login password is retrieved from the <code>credentials.json</code> file. If the validation is successful during the password change process, the new password is written to the JSON, overwriting the previous value.
+The login password is retrieved from the <code>credentials.json</code> file. If the validation is successful during password change process, the new password is written to the JSON, overwriting the previous value.
 <br><br>
 <img src="screenshots/change-password.png"><br><br>
 
