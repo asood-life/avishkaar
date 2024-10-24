@@ -1,4 +1,4 @@
-mysql-connector-python==8.0.20
+mysql-connector-python==9.1.0
 numpy==1.26.4
 pandas==2.2.2
 pillow==10.3.0
